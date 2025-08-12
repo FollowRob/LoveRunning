@@ -1,4 +1,9 @@
- /* Wildcard selector to override default styles added by the browser */
+
+/* Google font import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
+
+/* Wildcard selector to override default styles added by the browser */
  * {
     margin: 0;
     padding: 0;
@@ -12,11 +17,21 @@
     flex-direction: column;
     /* generic project styles */
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
  }
- 
+
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color:#ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
+h1 {
+    font-family: 'oswald', sans-serif;
 }
 
 /* Main content */
@@ -29,4 +44,8 @@ main {
 /* Footer */
 footer {
     background-color: orange;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
 }
