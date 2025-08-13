@@ -134,6 +134,17 @@ footer {
     }
 }
 
+/* Media query: 992px plus */
+@media screen and (min-width: 992px) {
+  #menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+	}
+
+  }
+
+
+
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
